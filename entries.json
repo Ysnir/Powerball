@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 43,
+  "nextEntryId": 48,
   "nodes": [
     {
       "id": "16",
@@ -44,6 +44,21 @@
         {
           "id": "42",
           "name": "WallBrickSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "45",
+          "name": "MultipleLifeSprite1",
+          "type": "sprite"
+        },
+        {
+          "id": "46",
+          "name": "MultipleLifeSprite2",
+          "type": "sprite"
+        },
+        {
+          "id": "47",
+          "name": "MultipleLifeSprite3",
           "type": "sprite"
         }
       ]
@@ -91,6 +106,11 @@
         {
           "id": "33",
           "name": "NameField",
+          "type": "script"
+        },
+        {
+          "id": "43",
+          "name": "HighscoreScript",
           "type": "script"
         }
       ]

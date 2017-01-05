@@ -3,7 +3,8 @@ class GameManagerBehavior extends Sup.Behavior {
   instance : GameManagerBehavior = null;
   playerLives : number = 3;
   playerScore : number = 0;
-  public currentLevel  = 1;
+  public currentLevel  = 0;
+  public maxLevel = 5;
   isCurrentLevelFinished = false;
   player = null;
   
@@ -22,10 +23,14 @@ class GameManagerBehavior extends Sup.Behavior {
     if(this.isCurrentLevelFinished) {
       Sup.getActor("Levels").getChild(String(this.currentLevel)).destroy();
       this.currentLevel++;
-      Sup.getActor("Levels").getChild(String(this.currentLevel)).setVisible(true);
-      this.isCurrentLevelFinished = false;
-      Sup.getActor("Ball").getBehavior(BallScriptBehavior).startState = true;
-      Sup.getActor("Ball").getBehavior(BallScriptBehavior).speed = BASESPEED;
+      if(this.currentLevel !== this.maxLevel) {
+        Sup.getActor("Levels").getChild(String(this.currentLevel)).setVisible(true);
+        this.isCurrentLevelFinished = false;
+        Sup.getActor("Ball").getBehavior(BallScriptBehavior).startState = true;
+        Sup.getActor("Ball").getBehavior(BallScriptBehavior).speed = BASESPEED;
+      } else {
+        this.gameOver();
+      }
     }
   }
   
@@ -33,10 +38,14 @@ class GameManagerBehavior extends Sup.Behavior {
     this.playerLives--;
     Sup.getActor("Ball").getBehavior(BallScriptBehavior).startState = true;
     if(this.playerLives < 0) {
-      Sup.loadScene("GameOver");
-      Sup.Storage.set("TempScore", String(this.playerScore));
+      this.gameOver();
     }
-  } 
+  }
+  
+  public gameOver() {
+      Sup.Storage.set("TempScore", String(this.playerScore));
+      Sup.loadScene("GameOver");
+  }
   
   public scoreUp(){
     this.playerScore += 10;

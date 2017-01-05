@@ -155,6 +155,14 @@
             "opacity": null
           },
           "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "SubmitButtonBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
         }
       ],
       "position": {
@@ -207,57 +215,8 @@
         }
       ],
       "position": {
-        "x": -0.09985745698213577,
-        "y": -3.368661880493164,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "15",
-      "name": "Highscores",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "14",
-            "text": "Highscores",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 32,
-            "color": null,
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        },
-        {
-          "type": "Behavior",
-          "config": {
-            "behaviorName": "HighscoreButtonBehavior",
-            "propertyValues": {}
-          },
-          "id": "1"
-        }
-      ],
-      "position": {
-        "x": 1.3980028629302979,
-        "y": -2.5983340740203857,
+        "x": 1.4354960918426514,
+        "y": -2.611086130142212,
         "z": 0
       },
       "orientation": {

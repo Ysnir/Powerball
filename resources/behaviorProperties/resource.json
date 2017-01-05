@@ -68,6 +68,10 @@
           "type": "number"
         },
         {
+          "name": "maxLevel",
+          "type": "number"
+        },
+        {
           "name": "isCurrentLevelFinished",
           "type": "boolean"
         },
@@ -129,12 +133,14 @@
         {
           "name": "isHover",
           "type": "boolean"
-        },
-        {
-          "name": "submited",
-          "type": "boolean"
         }
       ]
+    },
+    "HighscoreScriptBehavior": {
+      "scriptId": "43",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

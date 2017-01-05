@@ -137,34 +137,101 @@
       "prefab": null
     },
     {
-      "id": "20",
-      "name": "First",
+      "id": "39",
+      "name": "HallOfFame",
       "children": [
         {
-          "id": "22",
-          "name": "Name",
-          "children": [],
-          "components": [
+          "id": "20",
+          "name": "First",
+          "children": [
             {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "First",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
+              "id": "22",
+              "name": "Name",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "First",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1.326676368713379,
+                "y": 0.014265298843383789,
+                "z": 0
               },
-              "id": "0"
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "23",
+              "name": "Score",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "?",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 3.8516405820846558,
+                "y": 0.01426541805267334,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
             }
           ],
+          "components": [],
           "position": {
-            "x": 1.326676368713379,
-            "y": 0.014265298843383789,
-            "z": 0
+            "x": -1.9258203506469727,
+            "y": 1.7048715353012085,
+            "z": -5
           },
           "orientation": {
             "x": 0,
@@ -182,205 +249,97 @@
           "prefab": null
         },
         {
-          "id": "23",
-          "name": "Score",
-          "children": [],
-          "components": [
+          "id": "24",
+          "name": "Second",
+          "children": [
             {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "?",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
+              "id": "25",
+              "name": "Name",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "Second",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1.326676368713379,
+                "y": 0.014265298843383789,
+                "z": 0
               },
-              "id": "0"
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "26",
+              "name": "Score",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "?",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 3.8516405820846558,
+                "y": 0.01426541805267334,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
             }
           ],
+          "components": [],
           "position": {
-            "x": 3.8516405820846558,
-            "y": 0.01426541805267334,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
-      "components": [],
-      "position": {
-        "x": -2.404,
-        "y": 1.349,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "24",
-      "name": "Second",
-      "children": [
-        {
-          "id": "25",
-          "name": "Name",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "Second",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 1.326676368713379,
-            "y": 0.014265298843383789,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "26",
-          "name": "Score",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "?",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 3.8516405820846558,
-            "y": 0.01426541805267334,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
-      "components": [],
-      "position": {
-        "x": -2.404,
-        "y": 0.636,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "30",
-      "name": "Third",
-      "children": [
-        {
-          "id": "31",
-          "name": "Name",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "Third",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 1.326676368713379,
-            "y": 0.014265298843383789,
-            "z": 0
+            "x": -1.9258203506469727,
+            "y": 0.9918715357780457,
+            "z": -5
           },
           "orientation": {
             "x": 0,
@@ -398,205 +357,97 @@
           "prefab": null
         },
         {
-          "id": "32",
-          "name": "Score",
-          "children": [],
-          "components": [
+          "id": "30",
+          "name": "Third",
+          "children": [
             {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "?",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
+              "id": "31",
+              "name": "Name",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "Third",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1.326676368713379,
+                "y": 0.014265298843383789,
+                "z": 0
               },
-              "id": "0"
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "32",
+              "name": "Score",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "?",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 3.8516405820846558,
+                "y": 0.01426541805267334,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
             }
           ],
+          "components": [],
           "position": {
-            "x": 3.8516405820846558,
-            "y": 0.01426541805267334,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
-      "components": [],
-      "position": {
-        "x": -2.404,
-        "y": -0.063,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "33",
-      "name": "Fourth",
-      "children": [
-        {
-          "id": "34",
-          "name": "Name",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "Fourth",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 1.326676368713379,
-            "y": 0.014265298843383789,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "35",
-          "name": "Score",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "?",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 3.8516405820846558,
-            "y": 0.01426541805267334,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
-      "components": [],
-      "position": {
-        "x": -2.404,
-        "y": -0.72,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "36",
-      "name": "Fith",
-      "children": [
-        {
-          "id": "37",
-          "name": "Name",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "Fith",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 1.326676368713379,
-            "y": 0.014265298843383789,
-            "z": 0
+            "x": -1.9258203506469727,
+            "y": 0.2928715646266937,
+            "z": -5
           },
           "orientation": {
             "x": 0,
@@ -614,30 +465,205 @@
           "prefab": null
         },
         {
-          "id": "38",
-          "name": "Score",
-          "children": [],
-          "components": [
+          "id": "33",
+          "name": "Fourth",
+          "children": [
             {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "14",
-                "text": "?",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": 32,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
+              "id": "34",
+              "name": "Name",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "Fourth",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1.326676368713379,
+                "y": 0.014265298843383789,
+                "z": 0
               },
-              "id": "0"
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "35",
+              "name": "Score",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "?",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 3.8516405820846558,
+                "y": 0.01426541805267334,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
             }
           ],
+          "components": [],
           "position": {
-            "x": 3.8516405820846558,
-            "y": 0.01426541805267334,
-            "z": 0
+            "x": -1.9258203506469727,
+            "y": -0.3641284704208374,
+            "z": -5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "36",
+          "name": "Fith",
+          "children": [
+            {
+              "id": "37",
+              "name": "Name",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "Fifth",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 1.326676368713379,
+                "y": 0.014265298843383789,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "38",
+              "name": "Score",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "14",
+                    "text": "?",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": 32,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 3.8516405820846558,
+                "y": 0.01426541805267334,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": -1.9258203506469727,
+            "y": -1.0631284713745117,
+            "z": -5
           },
           "orientation": {
             "x": 0,
@@ -655,11 +681,20 @@
           "prefab": null
         }
       ],
-      "components": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "HighscoreScriptBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        }
+      ],
       "position": {
-        "x": -2.404,
-        "y": -1.419,
-        "z": 0
+        "x": -0.4781796932220459,
+        "y": -0.3558715581893921,
+        "z": 5
       },
       "orientation": {
         "x": 0,
