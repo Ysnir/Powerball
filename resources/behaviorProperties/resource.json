@@ -1,0 +1,125 @@
+{
+  "behaviors": {
+    "BallScriptBehavior": {
+      "scriptId": "8",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "startState",
+          "type": "boolean"
+        },
+        {
+          "name": "paddle",
+          "type": "any"
+        },
+        {
+          "name": "gameManager",
+          "type": "any"
+        },
+        {
+          "name": "score",
+          "type": "number"
+        },
+        {
+          "name": "dx",
+          "type": "number"
+        },
+        {
+          "name": "dy",
+          "type": "number"
+        }
+      ]
+    },
+    "PaddleScriptBehavior": {
+      "scriptId": "9",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "ball",
+          "type": "any"
+        }
+      ]
+    },
+    "GameManagerBehavior": {
+      "scriptId": "20",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "playerLives",
+          "type": "number"
+        },
+        {
+          "name": "playerScore",
+          "type": "number"
+        },
+        {
+          "name": "currentLevel",
+          "type": "number"
+        },
+        {
+          "name": "isCurrentLevelFinished",
+          "type": "boolean"
+        },
+        {
+          "name": "player",
+          "type": "any"
+        }
+      ]
+    },
+    "StartButtonBehavior": {
+      "scriptId": "27",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        }
+      ]
+    },
+    "NameField": {
+      "scriptId": "33",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "text",
+          "type": "string"
+        }
+      ]
+    },
+    "MenuButtonBehavior": {
+      "scriptId": "34",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        }
+      ]
+    },
+    "HighscoreButtonBehavior": {
+      "scriptId": "36",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        }
+      ]
+    }
+  }
+}
