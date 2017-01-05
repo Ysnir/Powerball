@@ -141,12 +141,6 @@
       "line": 1,
       "parentBehavior": null,
       "properties": []
-    },
-    "MultiLifeBrickScriptBehavior": {
-      "scriptId": "44",
-      "line": 0,
-      "parentBehavior": null,
-      "properties": []
     }
   }
 }

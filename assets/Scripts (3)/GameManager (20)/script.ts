@@ -3,8 +3,8 @@ class GameManagerBehavior extends Sup.Behavior {
   instance : GameManagerBehavior = null;
   playerLives : number = 3;
   playerScore : number = 0;
-  public currentLevel  = 1;
-  public maxLevel = 3;
+  public currentLevel  = 0;
+  public maxLevel = 5;
   isCurrentLevelFinished = false;
   player = null;
   
@@ -21,9 +21,9 @@ class GameManagerBehavior extends Sup.Behavior {
     this.player.getChild("Lives").textRenderer.setText(this.playerLives);
     this.player.getChild("Score").textRenderer.setText(this.playerScore);
     if(this.isCurrentLevelFinished) {
+      Sup.getActor("Levels").getChild(String(this.currentLevel)).destroy();
       this.currentLevel++;
       if(this.currentLevel !== this.maxLevel) {
-        Sup.getActor("Levels").getChild(String(this.currentLevel)).destroy();
         Sup.getActor("Levels").getChild(String(this.currentLevel)).setVisible(true);
         this.isCurrentLevelFinished = false;
         Sup.getActor("Ball").getBehavior(BallScriptBehavior).startState = true;
