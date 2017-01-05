@@ -1,0 +1,118 @@
+{
+  "nextEntryId": 37,
+  "nodes": [
+    {
+      "id": "16",
+      "name": "Game",
+      "type": "scene"
+    },
+    {
+      "id": "25",
+      "name": "Menu",
+      "type": "scene"
+    },
+    {
+      "id": "32",
+      "name": "GameOver",
+      "type": "scene"
+    },
+    {
+      "id": "35",
+      "name": "Highscores",
+      "type": "scene"
+    },
+    {
+      "id": "2",
+      "name": "Sprites",
+      "type": null,
+      "children": [
+        {
+          "id": "4",
+          "name": "BallSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "5",
+          "name": "PaddleSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "30",
+          "name": "SimpleBrickSprite",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "8",
+          "name": "BallScript",
+          "type": "script"
+        },
+        {
+          "id": "9",
+          "name": "PaddleScript",
+          "type": "script"
+        },
+        {
+          "id": "20",
+          "name": "GameManager",
+          "type": "script"
+        },
+        {
+          "id": "27",
+          "name": "StartButtonScript",
+          "type": "script"
+        },
+        {
+          "id": "34",
+          "name": "MenuButtonScript",
+          "type": "script"
+        },
+        {
+          "id": "36",
+          "name": "HighscoreButtonScript",
+          "type": "script"
+        },
+        {
+          "id": "33",
+          "name": "NameField",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Sounds",
+      "type": null,
+      "children": [
+        {
+          "id": "11",
+          "name": "BounceSound",
+          "type": "sound"
+        },
+        {
+          "id": "13",
+          "name": "BreakSound",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Fonts",
+      "type": null,
+      "children": [
+        {
+          "id": "14",
+          "name": "Font",
+          "type": "font"
+        }
+      ]
+    }
+  ]
+}
