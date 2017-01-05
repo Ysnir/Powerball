@@ -184,47 +184,6 @@
       "visible": true,
       "layer": 0,
       "prefab": null
-    },
-    {
-      "id": "12",
-      "name": "Quit",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "14",
-            "text": "Quit",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": 32,
-            "color": null,
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": 0,
-        "y": -0.41,
-        "z": 0
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
     }
   ]
 }

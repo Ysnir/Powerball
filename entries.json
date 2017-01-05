@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 37,
+  "nextEntryId": 43,
   "nodes": [
     {
       "id": "16",
@@ -40,6 +40,11 @@
           "id": "30",
           "name": "SimpleBrickSprite",
           "type": "sprite"
+        },
+        {
+          "id": "42",
+          "name": "WallBrickSprite",
+          "type": "sprite"
         }
       ]
     },
@@ -66,6 +71,11 @@
         {
           "id": "27",
           "name": "StartButtonScript",
+          "type": "script"
+        },
+        {
+          "id": "37",
+          "name": "SubmitButtonScript",
           "type": "script"
         },
         {
