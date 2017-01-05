@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 43,
+  "nextEntryId": 44,
   "nodes": [
     {
       "id": "16",
@@ -91,6 +91,11 @@
         {
           "id": "33",
           "name": "NameField",
+          "type": "script"
+        },
+        {
+          "id": "43",
+          "name": "HighscoreScript",
           "type": "script"
         }
       ]

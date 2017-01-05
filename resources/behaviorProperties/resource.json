@@ -123,18 +123,20 @@
     },
     "SubmitButtonBehavior": {
       "scriptId": "37",
-      "line": 2,
+      "line": 5,
       "parentBehavior": null,
       "properties": [
         {
           "name": "isHover",
           "type": "boolean"
-        },
-        {
-          "name": "submited",
-          "type": "boolean"
         }
       ]
+    },
+    "HighscoreScriptBehavior": {
+      "scriptId": "43",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }
