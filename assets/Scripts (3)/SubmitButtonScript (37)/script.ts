@@ -1,8 +1,5 @@
 var ray : Sup.Math.Ray;
-/*let highscores = {
-  {name: "Jean", score: 10000},
-  ...
-}*/
+//WORK IN PROGRESS
 class SubmitButtonBehavior extends Sup.Behavior {
   isHover : boolean = false;
 

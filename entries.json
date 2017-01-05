@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 44,
+  "nextEntryId": 45,
   "nodes": [
     {
       "id": "16",
@@ -96,6 +96,11 @@
         {
           "id": "43",
           "name": "HighscoreScript",
+          "type": "script"
+        },
+        {
+          "id": "44",
+          "name": "MultiLifeBrickScript",
           "type": "script"
         }
       ]

@@ -1,7 +1,9 @@
+//WORK IN PROGRESS
 class HighscoreScriptBehavior extends Sup.Behavior {
   highscores = [];
   
   awake() {
+    //Sup.log(Sup.Storage.getJSON("highscores"));
     if(Sup.Storage.getJSON("highscores")){
       this.highscores = Sup.Storage.getJSON("highscores");
     }
