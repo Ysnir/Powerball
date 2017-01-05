@@ -23,12 +23,12 @@ class BallScriptBehavior extends Sup.Behavior {
     if(this.startState) {
       this.actor.arcadeBody2D.warpPosition(this.paddle.getX(), -2.5);
     } else {
-    
-    for(let children of Sup.getActor("Levels").getChild(String(this.gameManager.getBehavior(GameManagerBehavior).currentLevel)).getChildren()) {
+    this.bricks = Sup.getActor("Levels").getChild(String(this.gameManager.getBehavior(GameManagerBehavior).currentLevel)).getChildren();
+    /*for(let children of Sup.getActor("Levels").getChild(String(this.gameManager.getBehavior(GameManagerBehavior).currentLevel)).getChildren()) {
       if(children.getName() !== "wall") {
         this.bricks.push(children);
       }
-    }
+    }*/
     
     //We get the ball position.
     let x : number  = this.actor.getX(); let y : number  = this.actor.getY();
