@@ -1,10 +1,9 @@
 class MultiLifeBrickScriptBehavior extends Sup.Behavior {
-  awake() {
-    
-  }
 
   update() {
-    
+    if(Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.ArcadePhysics2D.getAllBodies())) {
+        
+    }
   }
 }
 Sup.registerBehavior(MultiLifeBrickScriptBehavior);
