@@ -7,6 +7,7 @@ class BallScriptBehavior extends Sup.Behavior {
     score = 0;
     dx : number = 0; dy : number = 1;
     bricks = [];
+    breakableBricks = [];
     
   awake() {
     this.paddle = Sup.getActor("Paddle");
@@ -24,11 +25,7 @@ class BallScriptBehavior extends Sup.Behavior {
       this.actor.arcadeBody2D.warpPosition(this.paddle.getX(), -2.5);
     } else {
     this.bricks = Sup.getActor("Levels").getChild(String(this.gameManager.getBehavior(GameManagerBehavior).currentLevel)).getChildren();
-    /*for(let children of Sup.getActor("Levels").getChild(String(this.gameManager.getBehavior(GameManagerBehavior).currentLevel)).getChildren()) {
-      if(children.getName() !== "wall") {
-        this.bricks.push(children);
-      }
-    }*/
+    this.breakableBricks = this.bricks.filter(function(element){return element.getName() !== "wall"});
     
     //We get the ball position.
     let x : number  = this.actor.getX(); let y : number  = this.actor.getY();
@@ -49,7 +46,7 @@ class BallScriptBehavior extends Sup.Behavior {
     }
       
     //If the level is finished
-    if(this.bricks.length === 0) {
+    if(this.breakableBricks.length === 0) {
       this.gameManager.getBehavior(GameManagerBehavior).isCurrentLevelFinished = true;
     }
     
