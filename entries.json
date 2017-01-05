@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 37,
+  "nextEntryId": 41,
   "nodes": [
     {
       "id": "16",
@@ -66,6 +66,11 @@
         {
           "id": "27",
           "name": "StartButtonScript",
+          "type": "script"
+        },
+        {
+          "id": "37",
+          "name": "SubmitButtonScript",
           "type": "script"
         },
         {

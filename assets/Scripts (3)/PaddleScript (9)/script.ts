@@ -9,7 +9,6 @@ class PaddleScriptBehavior extends Sup.Behavior {
   
   update() {
 
-    //Contrôles au clavier
     let x : number = this.actor.getX() ; 
     if(Sup.Input.isKeyDown("D") && x < 2.35){
       this.padBody.setVelocityX(this.speed);

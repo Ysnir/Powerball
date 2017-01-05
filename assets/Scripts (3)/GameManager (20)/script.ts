@@ -30,7 +30,8 @@ class GameManagerBehavior extends Sup.Behavior {
     this.playerLives--;
     Sup.getActor("Ball").getBehavior(BallScriptBehavior).startState = true;
     if(this.playerLives < 0) {
-      Sup.loadScene("Menu");
+      Sup.loadScene("GameOver");
+      Sup.Storage.set("TempScore", String(this.playerScore));
     }
   } 
   

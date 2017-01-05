@@ -120,6 +120,21 @@
           "type": "boolean"
         }
       ]
+    },
+    "SubmitButtonBehavior": {
+      "scriptId": "37",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        },
+        {
+          "name": "submited",
+          "type": "boolean"
+        }
+      ]
     }
   }
 }
