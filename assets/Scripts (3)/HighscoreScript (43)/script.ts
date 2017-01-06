@@ -1,4 +1,4 @@
-//WORK IN PROGRESS
+//WORK IN PROGRESS (local score storage test)
 class HighscoreScriptBehavior extends Sup.Behavior {
   highscores = [];
   

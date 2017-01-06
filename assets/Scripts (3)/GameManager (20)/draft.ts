@@ -1,7 +1,7 @@
 class GameManagerBehavior extends Sup.Behavior {
   
   instance : GameManagerBehavior = null;
-  playerLives : number = 3;
+  playerLives : number = 5;
   playerScore : number = 0;
   public currentLevel  = 0;
   public maxLevel = 5;

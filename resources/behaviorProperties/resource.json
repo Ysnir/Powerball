@@ -72,6 +72,10 @@
           "type": "number"
         },
         {
+          "name": "collectibleSpawnRate",
+          "type": "number"
+        },
+        {
           "name": "isCurrentLevelFinished",
           "type": "boolean"
         },
@@ -141,6 +145,29 @@
       "line": 1,
       "parentBehavior": null,
       "properties": []
+    },
+    "DeathCollectibleScriptBehavior": {
+      "scriptId": "53",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "dx",
+          "type": "number"
+        },
+        {
+          "name": "dy",
+          "type": "number"
+        },
+        {
+          "name": "paddle",
+          "type": "any"
+        },
+        {
+          "name": "gameManager",
+          "type": "any"
+        }
+      ]
     }
   }
 }

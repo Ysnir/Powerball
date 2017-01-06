@@ -33,12 +33,13 @@ class BallScriptBehavior extends Sup.Behavior {
     //Then we get all bricks that are colliding with it.
     let collidedBricks = this.bricks.filter(this.collidesWithBall, this);
     
-    //If there is any brick colliding we call the method corresponding to the brick and then we make the ball bounce.
+    //If there is any brick colliding it is destroy and then the ball bounce.
     if(collidedBricks.length > 0) {
         for(let brick of collidedBricks) {
           if(brick.getName() === "brick") {
             brick.destroy();
             this.gameManager.getBehavior(GameManagerBehavior).scoreUp();
+            this.gameManager.getBehavior(GameManagerBehavior).generateCollectible();
           }
         }
         this.dx = this.dx * -1;

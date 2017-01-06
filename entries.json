@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 48,
+  "nextEntryId": 54,
   "nodes": [
     {
       "id": "16",
@@ -60,6 +60,11 @@
           "id": "47",
           "name": "MultipleLifeSprite3",
           "type": "sprite"
+        },
+        {
+          "id": "51",
+          "name": "DeathCollectibleSprite",
+          "type": "sprite"
         }
       ]
     },
@@ -112,6 +117,11 @@
           "id": "43",
           "name": "HighscoreScript",
           "type": "script"
+        },
+        {
+          "id": "53",
+          "name": "DeathCollectibleScript",
+          "type": "script"
         }
       ]
     },
@@ -124,6 +134,18 @@
           "id": "14",
           "name": "Font",
           "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Prefabs",
+      "type": null,
+      "children": [
+        {
+          "id": "50",
+          "name": "DeathCollectible",
+          "type": "scene"
         }
       ]
     }
