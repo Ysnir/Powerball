@@ -16,7 +16,7 @@ class ShrinkPaddleCollectibleScriptBehavior extends Sup.Behavior {
             if(paddleSize === 0.7) {
               this.paddle.spriteRenderer.setSprite("Sprites/SmallPaddleSprite");
               this.paddle.arcadeBody2D.setSize(0.4, 0.2);
-            } else if(paddleSize === 0.4) {
+            } else if(paddleSize === 1.3) {
               this.paddle.spriteRenderer.setSprite("Sprites/PaddleSprite");
               this.paddle.arcadeBody2D.setSize(0.7, 0.2);
             }
