@@ -116,23 +116,6 @@
       ]
     },
     {
-      "id": "10",
-      "name": "Sounds",
-      "type": null,
-      "children": [
-        {
-          "id": "11",
-          "name": "BounceSound",
-          "type": "sound"
-        },
-        {
-          "id": "13",
-          "name": "BreakSound",
-          "type": "sound"
-        }
-      ]
-    },
-    {
       "id": "28",
       "name": "Fonts",
       "type": null,
