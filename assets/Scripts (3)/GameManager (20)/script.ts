@@ -37,15 +37,18 @@ class GameManagerBehavior extends Sup.Behavior {
   
   public generateCollectible() {
     if(Math.random() >= this.collectibleSpawnRate) {
-      switch(Math.floor((Math.random() * 3) + 1)) {
+      switch(Math.floor((Math.random() * 4) + 1)) {
         case 1:
-          Sup.appendScene("Prefabs/GrowPaddleCollectible");
+          Sup.appendScene("Prefabs/DeathCollectible");
           break;
         case 2:
           Sup.appendScene("Prefabs/FastSpeedCollectible");
           break;
         case 3:
-          Sup.appendScene("Prefabs/DeathCollectible");
+          Sup.appendScene("Prefabs/GrowPaddleCollectible");
+          break;
+        case 4:
+          Sup.appendScene("Prefabs/ShrinkPaddleCollectible");
           break;
       }
     }
