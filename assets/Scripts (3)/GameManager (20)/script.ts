@@ -1,7 +1,7 @@
 class GameManagerBehavior extends Sup.Behavior {
   
   instance : GameManagerBehavior = null;
-  playerLives : number = 3;
+  playerLives : number = 5;
   playerScore : number = 0;
   public currentLevel  = 0;
   public maxLevel = 5;
@@ -37,9 +37,12 @@ class GameManagerBehavior extends Sup.Behavior {
   
   public generateCollectible() {
     if(Math.random() >= this.collectibleSpawnRate) {
-      switch(Math.floor((Math.random() * 1) + 1)) {
+      switch(Math.floor((Math.random() * 2) + 1)) {
         case 1:
           Sup.appendScene("Prefabs/DeathCollectible");
+          break;
+        case 2:
+          Sup.appendScene("Prefabs/FastSpeedCollectible");
           break;
       }
     }

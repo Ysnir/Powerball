@@ -1,6 +1,6 @@
 const BASESPEED : number = 0.05 ;
 class BallScriptBehavior extends Sup.Behavior {
-    speed : number = BASESPEED;
+    public speed : number = BASESPEED;
     startState :boolean = true;
     paddle = null;
     gameManager = null;

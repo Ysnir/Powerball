@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 54,
+  "nextEntryId": 58,
   "nodes": [
     {
       "id": "16",
@@ -65,6 +65,11 @@
           "id": "51",
           "name": "DeathCollectibleSprite",
           "type": "sprite"
+        },
+        {
+          "id": "56",
+          "name": "FastSpeedCollectibleSprite",
+          "type": "sprite"
         }
       ]
     },
@@ -122,6 +127,11 @@
           "id": "53",
           "name": "DeathCollectibleScript",
           "type": "script"
+        },
+        {
+          "id": "57",
+          "name": "FastSpeedCollectibleScript",
+          "type": "script"
         }
       ]
     },
@@ -145,6 +155,11 @@
         {
           "id": "50",
           "name": "DeathCollectible",
+          "type": "scene"
+        },
+        {
+          "id": "55",
+          "name": "FastSpeedCollectible",
           "type": "scene"
         }
       ]
