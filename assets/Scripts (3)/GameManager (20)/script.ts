@@ -37,12 +37,15 @@ class GameManagerBehavior extends Sup.Behavior {
   
   public generateCollectible() {
     if(Math.random() >= this.collectibleSpawnRate) {
-      switch(Math.floor((Math.random() * 2) + 1)) {
+      switch(Math.floor((Math.random() * 3) + 1)) {
         case 1:
-          Sup.appendScene("Prefabs/DeathCollectible");
+          Sup.appendScene("Prefabs/GrowPaddleCollectible");
           break;
         case 2:
           Sup.appendScene("Prefabs/FastSpeedCollectible");
+          break;
+        case 3:
+          Sup.appendScene("Prefabs/DeathCollectible");
           break;
       }
     }
@@ -51,6 +54,8 @@ class GameManagerBehavior extends Sup.Behavior {
   public loseBall() {
     this.playerLives--;
     Sup.getActor("Ball").getBehavior(BallScriptBehavior).startState = true;
+    this.player.getChild("Paddle").spriteRenderer.setSprite("Sprites/PaddleSprite");
+    this.player.getChild("Paddle").arcadeBody2D.setSize(.7, 0.2);
     if(this.playerLives < 0) {
       this.gameOver();
     }

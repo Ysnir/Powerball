@@ -20,7 +20,6 @@ class BallScriptBehavior extends Sup.Behavior {
   }
   
   update() {
-    
     if(this.startState) {
       this.actor.arcadeBody2D.warpPosition(this.paddle.getX(), -2.5);
     } else {

@@ -191,6 +191,52 @@
           "type": "any"
         }
       ]
+    },
+    "GrowPaddleCollectibleScriptBehavior": {
+      "scriptId": "61",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "dx",
+          "type": "number"
+        },
+        {
+          "name": "dy",
+          "type": "number"
+        },
+        {
+          "name": "paddle",
+          "type": "any"
+        },
+        {
+          "name": "ball",
+          "type": "any"
+        }
+      ]
+    },
+    "ShrinkPaddleCollectibleScriptBehavior": {
+      "scriptId": "65",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "dx",
+          "type": "number"
+        },
+        {
+          "name": "dy",
+          "type": "number"
+        },
+        {
+          "name": "paddle",
+          "type": "any"
+        },
+        {
+          "name": "ball",
+          "type": "any"
+        }
+      ]
     }
   }
 }

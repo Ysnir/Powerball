@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 58,
+  "nextEntryId": 67,
   "nodes": [
     {
       "id": "16",
@@ -42,6 +42,11 @@
           "type": "sprite"
         },
         {
+          "id": "62",
+          "name": "LargePaddleSprite",
+          "type": "sprite"
+        },
+        {
           "id": "42",
           "name": "WallBrickSprite",
           "type": "sprite"
@@ -69,6 +74,21 @@
         {
           "id": "56",
           "name": "FastSpeedCollectibleSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "60",
+          "name": "GrowPaddleCollectibleSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "63",
+          "name": "ShrinkPaddleCollectibleSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "66",
+          "name": "SmallPaddleSprite",
           "type": "sprite"
         }
       ]
@@ -132,6 +152,16 @@
           "id": "57",
           "name": "FastSpeedCollectibleScript",
           "type": "script"
+        },
+        {
+          "id": "61",
+          "name": "GrowPaddleCollectibleScript",
+          "type": "script"
+        },
+        {
+          "id": "65",
+          "name": "ShrinkPaddleCollectibleScript",
+          "type": "script"
         }
       ]
     },
@@ -160,6 +190,16 @@
         {
           "id": "55",
           "name": "FastSpeedCollectible",
+          "type": "scene"
+        },
+        {
+          "id": "59",
+          "name": "GrowPaddleCollectible",
+          "type": "scene"
+        },
+        {
+          "id": "64",
+          "name": "ShrinkPaddleCollectible",
           "type": "scene"
         }
       ]
