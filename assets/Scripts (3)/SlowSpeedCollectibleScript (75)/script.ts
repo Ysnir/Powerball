@@ -1,4 +1,4 @@
-class FastSpeedCollectibleScriptBehavior extends Sup.Behavior {
+class SlowSpeedCollectibleScriptBehavior extends Sup.Behavior {
   dx : number = 0; dy : number = -1;
   paddle = null;
   ball = null;
@@ -12,11 +12,8 @@ class FastSpeedCollectibleScriptBehavior extends Sup.Behavior {
     this.actor.arcadeBody2D.setVelocity(BASESPEED*this.dx, BASESPEED*this.dy);
     if(Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, this.paddle.arcadeBody2D)) {
             this.actor.destroy();
-          if(this.ball.getBehavior(BallScriptBehavior).speed < 0.7){
-                this.ball.getBehavior(BallScriptBehavior).speed = 0.08;
-          }
-
+            this.ball.getBehavior(BallScriptBehavior).speed = 0.036;
        }
   }
 }
-Sup.registerBehavior(FastSpeedCollectibleScriptBehavior);
+Sup.registerBehavior(SlowSpeedCollectibleScriptBehavior);

@@ -20,7 +20,6 @@ class GrowPaddleCollectibleScriptBehavior extends Sup.Behavior {
               this.paddle.spriteRenderer.setSprite("Sprites/PaddleSprite");
               this.paddle.arcadeBody2D.setSize(0.7, 0.2);
             }
-
        }
   }
 }

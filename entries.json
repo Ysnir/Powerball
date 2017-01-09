@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 67,
+  "nextEntryId": 76,
   "nodes": [
     {
       "id": "16",
@@ -90,6 +90,16 @@
           "id": "66",
           "name": "SmallPaddleSprite",
           "type": "sprite"
+        },
+        {
+          "id": "67",
+          "name": "InvisibleBrickSprite",
+          "type": "sprite"
+        },
+        {
+          "id": "72",
+          "name": "SlowSpeedCollectibleSprite",
+          "type": "sprite"
         }
       ]
     },
@@ -154,6 +164,11 @@
           "type": "script"
         },
         {
+          "id": "75",
+          "name": "SlowSpeedCollectibleScript",
+          "type": "script"
+        },
+        {
           "id": "61",
           "name": "GrowPaddleCollectibleScript",
           "type": "script"
@@ -193,6 +208,11 @@
           "type": "scene"
         },
         {
+          "id": "74",
+          "name": "SlowSpeedCollectible",
+          "type": "scene"
+        },
+        {
           "id": "59",
           "name": "GrowPaddleCollectible",
           "type": "scene"
@@ -200,6 +220,11 @@
         {
           "id": "64",
           "name": "ShrinkPaddleCollectible",
+          "type": "scene"
+        },
+        {
+          "id": "70",
+          "name": "SpecialBricks",
           "type": "scene"
         }
       ]
