@@ -237,6 +237,29 @@
           "type": "any"
         }
       ]
+    },
+    "SlowSpeedCollectibleScriptBehavior": {
+      "scriptId": "75",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "dx",
+          "type": "number"
+        },
+        {
+          "name": "dy",
+          "type": "number"
+        },
+        {
+          "name": "paddle",
+          "type": "any"
+        },
+        {
+          "name": "ball",
+          "type": "any"
+        }
+      ]
     }
   }
 }
