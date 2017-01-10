@@ -77,7 +77,7 @@ class BallScriptBehavior extends Sup.Behavior {
         this.dx = (Math.random() * 2) - 1;
       }
       //Then for each hit on the Paddle the ball accelerate
-      this.speed += 0.01
+      this.speed += 0.002
       this.dy = this.dy * -1;
     }
     
